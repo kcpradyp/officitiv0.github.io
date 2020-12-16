@@ -1,0 +1,49 @@
+.btn-alt {
+  border-color: $green;
+  background-color: $green;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.1rem;
+  &.btn-lg {
+    font-size: 1.2rem;
+    padding: 0.75rem 2.5rem;
+    text-transform: uppercase;
+  }
+  &:hover {
+    border-color: darken($color: $green, $amount: 10%);
+    background-color: darken($color: $green, $amount: 10%);
+    color: #fff;
+  }
+}
+.btn-danger {
+  border-color: $red;
+  background-color: $red;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.1rem;
+
+  &.btn-lg {
+    font-size: 1.2rem;
+    padding: 0.75rem 2.5rem;
+    text-transform: uppercase;
+  }
+  &:hover {
+    border-color: darken($color: $red, $amount: 10%);
+    background-color: darken($color: $red, $amount: 10%);
+    color: #fff;
+  }
+}
+.form-control,
+.custom-select {
+  font-size: 0.9rem;
+  border-radius: 0.1rem;
+  &:focus {
+    box-shadow: none;
+  }
+}
+.text-green {
+  color: $green;
+}
+.text-red {
+  color: $red;
+}
